@@ -1,0 +1,114 @@
+<div id="content">
+<h1 id="mainbanner" style="margin-bottom: 0px;"><img alt="Office of Career &amp; Professional Development" src="http://www.wcl.american.edu/career/images/main/logo.png">
+<hr>
+ <div id="hero">
+            <div class="" style="opacity: 1;"><img src="S1.png" alt=""></div>
+<div class="" style="opacity: 1;"><a href="http://www.wcl.american.edu/career/office.cfm" title="test2"><img src="S2.png" alt="test2"></a></div>
+<div class="current" style="opacity: 1;"><img src="S3.png" alt=""></div> 
+<div class="" style="opacity: 1;"><img src="S4.png" alt=""></div> 
+        </div>
+</h1>
+<ul id="blocks">
+	
+		<li class="blocka">
+	<a href="about.html"><img src="aboutUs3.png" alt="Resources"></a>
+	
+	<ul>
+		<li><a href="alum1.html">Welcome</a></li>
+		<li><a href="staff.cfm">Staff Directory</a></li><a href="staff.cfm">
+		</a><li><a href="staff.cfm"></a><a href="officehours.html">Office Hours &amp;<br>
+		Location*</a></li>
+		<li><a href="faqs.html"><span class="line">Frequently Asked<br>
+		Questions*</span></a></li>
+		<li><a href="documents/ProfessionalismandNoShowPolicy.pdf">Professionalism<br>
+		<span class="line">No Show Policy</span></a></li>
+	</ul>
+	</li>
+		<li class="blockc">
+		<a href="counselingotherservices.html"><img src="counseling2.png" alt="Career Counseling &amp; Other Services" border="0" height="115" width="110"></a><br>
+		<ul>
+			<li><a href="jdservices.html"><span class="line">JD Services*</span></a></li>
+			<li><a href="domestic.html"><span class="line">Domestic</span><br> <span class="line">LL.M. Services*</span></a></li>
+			<li><a href="foreign.html"><span class="line">Foreign-trained</span><br><span class="line">LL.M. Services*</span></a></li>
+			<li><a href="alum1.html"><span class="line">Alumni Services*</span></a></li>
+			<li><a href="employers.cfm"><span class="line">Employer Services</span></a></li>
+            <li><a href="stats.cfm"><span class="line">Recent Employment<br>Statistics</span></a></li>
+			<li><a href="reciprocity.cfm"><span class="line">Reciprocity</span></a></li>
+		</ul>
+	</li>
+	<li class="blockcl">
+		<a href="careerlinknav.html"><img src="careerlink2.png" alt="CareerLink (Online Job Bank)" border="0" height="115" width="110"></a><br>
+		<ul>
+			<li><a href="https://law-american-csm.symplicity.com/"><span class="line">Log On</span></a></li>
+			<li><a href="careerlinkhelp.html"><span class="line">Need An Account?*</span></a></li>
+			<li></li>
+		</ul>
+	</li>
+	<li class="blockep">
+		<a href="ProgramEvents.html"><img src="programs2.png" alt="Programs &amp; Events" border="0" height="115" width="110"></a><br>
+		<ul>
+			<li><a href="http://www.wcl.american.edu/career/recruitment.cfm"><span class="line">Recruitment</span><br>
+			<span class="line">Programs</span></a>
+				
+					</li><li><a href="recruitment.cfm">&nbsp;&nbsp;&nbsp;&nbsp;- <span class="line">Students</span></a></li>
+				  <li><a href="employers.cfm">&nbsp;&nbsp;&nbsp;&nbsp;- <span class="line">Employers</span></a></li>
+			  
+			
+			<li><a href="../wcl_events/index.cfm?calendar=1013&amp;keep_nav=1"><span class="line">Events Calendar(Remove)</span></a></li>
+			<li><a href="jddf.html"><span class="line">JD Distinguished</span><br><span class="line">Fellowship Program**</span></a></li>
+			<li></li>
+		</ul>
+	</li>
+
+	<li class="blockr">
+	<a href="resourcesnav.html"><img alt="Resources" border="0" height="115" src="resources2.png" width="110"></a>
+	<ul>
+		<li><a href="searchskills.html"><span class="line">Job Search Skills</span><br>
+		<span class="line">&amp; Resources*</span></a></li>
+		<li><a href="professionalism.cfm"><span class="line">Professionalism &amp;</span><br>
+		<span class="line">Online Public Image</span></a></li>
+		<li><a href="sample_app_materials.cfm"><span class="line">Job Application</span><br>
+		<span class="line">Documents</span></a></li>
+		<li><a href="library.cfm"><span class="line">OCPD Library</span><br>
+		<span class="line">Catalogue</span></a></li>
+		<li><a href="rlibrary.html"><span class="line">Resources Library**</span></a></li>
+		<li><a href="frame2.html"><span class="line">Podcasts/Webcasts*</span></a></li>
+	</ul>
+	</li>
+	<li class="blocke">
+	<a href="EmploymentSectors.html"><img alt="Practice Sectors" border="0" height="115" src="practice2.png" width="110"></a>
+	<ul>
+		<li><a href="clerkships.html"><span class="line">Judicial*</span></a></li>
+		<li><a href="corporations.cfm"><span class="line">Corporate / In-House</span></a></li>
+		<li><a href="government/"><span class="line">Government &amp;</span><br>
+		<span class="line">Capitol Hill</span></a></li>
+		<li><a href="international/"><span class="line">International</span></a></li>
+		<li><a href="privatepractice.cfm"><span class="line">Law Firms</span></a></li>
+		<li><a href="publicinterest.cfm"><span class="line">Public Interest</span></a></li>
+	</ul>
+	</li>
+</ul>
+&nbsp;
+
+
+
+<h2 align="center">Connect with OCPD!</h2>
+
+<p id="ocpd"><a href="http://www.linkedin.com/groups?gid=4720712&amp;trk=hb_side_g"><img border="0" height="32" src="https://www.wcl.american.edu/images/icons/linkedin_32.png" width="32"></a> <a href="http://wclocpd.wordpress.com/"><img border="0" height="32" src="http://www.wcl.american.edu/clinical/images/wordpress.png" width="32"></a> <a href="https://twitter.com/WCL_OCPD"><img alt="Twitterlogo" height="32" src="http://www.wcl.american.edu/clinical/images/twitterbutton.png" width="32"></a> <a href="https://www.facebook.com/au.wcl.ocpd"><img alt="facebook_icon" height="32" src="http://www.wcl.american.edu/clinical/images/facebook-button.jpg" width="32"></a></p>
+<div id="lifestream" style="
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-left: 650px;
+"><ul class="lifestream" style="list-style-image: url('s1.png');"><li class="lifestream-twitter" style="list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABgklEQVR42s1Sv0sCYRh+oaElssHma2gIAjlwjWoKx4b2/A+0PYyWSCippSiikoJLCnKyUEwRRELoJCyjH2d0SnDgaV5h6vDmKx553GmOPfDCxz0/7vlePvgfkBFN3TjHxa1n+jAesfv5A0GuMCrXPPO5ImvZjaVIaGQmDnbSCN4swt4DmtbCJQpkt6O8PyPNQeStYINjEZnNq1cKgzZ4rl8WiIMz+Xd8ElLgoE9U7JePXKNG1dIkuHcEdxjba7oSeQ9xRuO8KZ8g4hiEhcKMk/88VQmqCStBHNkICczRvdgpoIFRIKSk8gRV0omoEY2BmQ19PIEKRBxQG/Q6jmSRg3YI5frkUvrLa/LLSi8BpNcEKAoOs77MHW34L/N8UgkgYr8mABH7GmPdz1bcJCBhp7uXajUrGIHegCshrjPcc76TuVjHKfqZxuiKZpaHVgMyvQHYSuk2T3uh/WjN2vpM4btuO89VF0k4G1didA060zfiSKM363dgbgnH6YW1zuZuRsIPHLDKnOpzigwAAAAASUVORK5CYII=);">Become an Appeals Information Intern with <a href="http://twitter.com/gpmann1">@gpmann1</a> or an attorney with <a href="http://twitter.com/DonosoLaw">@DonosoLaw</a> with our Private Sector Spotlight!- <a href="http://ow.ly/MvsnE">http://ow.ly/MvsnE</a></li><li style="list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtklEQVR42m1TW0iTYRjuqoug2y68CIIOEHgdRBRdZHRUpCCT7EKLMCoqSgtByGqG06aiyJYW4sp5npsuS20ed3KTWuo/h3hmuXmYOzh3fPreDydlffD8vIfnef73+/7/23XgiWwnjjAUM4wwRAgUU416O/n8kVZrJFD86GBO9Wp2bbe2zzZvmZmdWyNQTDXqESfOjxsQdjNojr/6aBMcq3bF0BgeVGtw+bUcZ1/UIluqRotBwJTTPUkc4pLmTwPJmaLG0V9un+eOtAPnXsr/ixK1HgA2iEtbihsk0mjeQGhC0mmCWGVAqrgJhUodxRzPP2lxXqTAZigM7hAMz21t5yh/+315b09gq6mbXMAViRIipQGxWIzXcuv7cbGoGd/nnDxfcvtAGpqCDATTtGOkWGOhHiO5kCxRIfltO3R2B68Vqkw8z2vS8fzzjxmQhmnHyCAYikRXrlZ+weyyF8FwBDdkPUgp06C408KnME45mKkaN991g1ZeixHrG0HagpsbUJIm06Jm0MYFsr5xpJR2oNkg8DwciSC9XIXHimHMuDxIr+qCbzNEBl4ysNM4OW2jyJLrEYlGITjWcEncCv3ENNq0em4ibh1AY78FFV1m3K5o/WsL5XQgausirr3XwTS7wgX5TYOoUmmRWVABsNw67YDADjFVVIe6XnP8ECX8Mx7KrV52eQK2p+1WlPbZuYFz3Y+ssgacfliEVa8fsWgMAxMLyKxsZ70NgTSkJQM+RZK40ezyBb25Kiv8wTCcngAuvGlAUn4NlEaBT/FheBKLa34vcent//zKJ0X142z/9vVAGP32JVyX9iJD9hVSdqi0qHeqUPFz56/MLwaA7ct0r67n25B90QxghUAx1eKXCcD2ZaK1h2Efw2GGY3sTT9xKSH/Wsf9uyXxCRh4IFFONesQhLmlI+xsJmZfntItajAAAAABJRU5ErkJggg==);" class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/05/04/private-sector-spotlight-6/">Private Sector Spotlight</a></li><li class="lifestream-twitter">Apply for an Internship with the World Service Authority in our Public Interest Spotlight! <a href="http://ow.ly/Mu9be">http://ow.ly/Mu9be</a></li><li class="lifestream-twitter">Want to join the OPD movement?  Now hiring juvenile defenders, appellate defenders, CINA attorneys, and leaders.  <a href="http://www.opd.state.md.us">http://www.opd.state.md....</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/05/01/public-interest-spotlight-5/">Public Interest Spotlight</a></li><li class="lifestream-twitter">AU Office of Merit Awards is hosting a Fulbright Small Group Advising session today from 2-3pm in Letts Hall, Lower Level Conference Room.</li><li class="lifestream-twitter">Apply for 100k Attorney position with <a href="http://twitter.com/MNFGlobal">@MNFGlobal</a> via our OCPD Private Sector Spotlight Due 4/22! <a href="http://ow.ly/LSeAS">http://ow.ly/LSeAS</a></li><li class="lifestream-twitter">Apply for a 100k Attorney position with <a href="http://twitter.com/MNFGlobal">@MNFGlobal</a> via our OCPD Private Sector Spotlight Due 4/22! <a href="http://ow.ly/LSclY">http://ow.ly/LSclY</a></li><li class="lifestream-twitter">WCL students and alums, pay attention! 
+7 Rising Star Judges You Want To Clerk For | Above the Law <a href="http://abovethelaw.com/2015/04/7-rising-star-judges-you-want-to-clerk-for/">http://abovethelaw.com/2...</a></li><li class="lifestream-twitter">"Traits of Successful Candidates – Part 1" by <a href="http://twitter.com/MNFGlobal">@MNFGlobal</a> on <a href="http://twitter.com/LinkedIn">@LinkedIn</a> <a href="https://www.linkedin.com/pulse/20141031155028-14331522-traits-of-successful-candidates-part-1">https://www.linkedin.com...</a></li><li class="lifestream-twitter">Gowen Group Law Office, PLLC seeks a rising 2L, 3L or 4L for a summer internship in DC. Private Sector spotlight: <a href="http://bit.ly/1b7zPle">http://bit.ly/1b7zPle</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/16/private-spotlight-6/">Private Spotlight</a></li><li class="lifestream-twitter">One day left to apply for an Internship w/ Circuit Court for Baltimore City in our Judicial spotlight for the week!- <a href="http://ow.ly/LBULX">http://ow.ly/LBULX</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/14/judicial-spotlight-8/">Judicial Spotlight</a></li><li class="lifestream-twitter">Don't miss a Paid Summer 2015 Pathways internship with Dept. of Homeland Sec. <a href="http://twitter.com/dhsscitech">@dhsscitech</a> in our spotlight! Due 4/14! <a href="http://ow.ly/Lyh7a">http://ow.ly/Lyh7a</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/13/government-spotlight-5/">Government Spotlight</a></li><li class="lifestream-twitter"><a href="http://twitter.com/WCL_OCPD">@WCL_OCPD</a> <a href="http://twitter.com/auwcl_opi">@auwcl_opi</a> Check this event out! <a href="https://twitter.com/steve_vladeck/status/586132199453368320">https://twitter.com/stev...</a></li><li class="lifestream-twitter">Find a Clerkship <a href="http://twitter.com/towerswatson">@towerswatson</a> or a Scholarship <a href="http://twitter.com/JusticeDotOrg">@JusticeDotOrg</a> with our Diversity Spotlight for this week!  <a href="http://ow.ly/LsiZ0">http://ow.ly/LsiZ0</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/10/diversity-spotlight-5/">Diversity Spotlight</a></li><li class="lifestream-twitter">Intern w/ <a href="http://twitter.com/CCAmobile">@CCAmobile</a>  or be a Post Graduate fellow w/Partners for Human Rights in our OCPD Job Spotlight! -<a href="http://ow.ly/Lptwf">http://ow.ly/Lptwf</a>&nbsp; DUE 4/10!</li><li class="lifestream-twitter">Apply to be a Summer Associate <a href="http://twitter.com/BannerWitcoff">@BannerWitcoff</a> or a PAID Law Clerk <a href="http://twitter.com/PatelFirm">@PatelFirm</a> with our Private Sector Spotlight!- <a href="http://ow.ly/LlcFr">http://ow.ly/LlcFr</a></li><li class="lifestream-twitter">Still looking for employment!? Follow us at <a href="http://twitter.com/WCL_OCPD">@WCL_OCPD</a> for Weekly Job Sector Spotlights selected by your fellow AUWCL students and alumni!</li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/08/private-sector-spotlight-5/">Private Sector Spotlight</a></li><li class="lifestream-twitter">DC law job of the day: the FTC is hiring in its consumer protection division; 2 years' experience or more. <a href="http://1.usa.gov/1Cbdfi1">http://1.usa.gov/1Cbdfi1</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/07/asil-volunteer-call/">ASIL Volunteer Call</a></li><li class="lifestream-twitter">Graduating JD Students &amp; Alum apply for an Entry Lvl Attorney position w/ <a href="http://twitter.com/HHSGov">@HHSGov</a> or <a href="http://twitter.com/HHSGov">@HHSGov</a> in our Gov't Spotlight! <a href="http://ow.ly/Lgnm3">http://ow.ly/Lgnm3</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/06/private-sector-spotlight-4/">Government Spotlight</a></li><li class="lifestream-twitter">ABA offers free membership to <a href="https://twitter.com/hashtag/LawStudents?src=hash">#LawStudents</a> including <a href="http://twitter.com/ABALSD">@ABALSD</a> training, job board access, more: <a href="http://bit.ly/1xWLkpn">http://bit.ly/1xWLkpn</a>&nbsp;
+<a href="https://twitter.com/hashtag/ABAStudentMembership?src=hash">#ABAStudentMembership</a></li><li class="lifestream-wordpress">posted <a href="https://wclocpd.wordpress.com/2015/04/03/private-sector-spotlight-3/">Private Sector Spotlight</a></li></ul></div>
+
+<hr style="margin-bottom: 0px;">
+<div align="center">&nbsp;
+<p align="center" id="ocpd">Have trouble finding or viewing a page on this site? Contact our Resources Coordinator, Kendall Brown, <a href="mailto:klbrown@wcl.american.edu">klbrown@wcl.american.edu</a></p>
+
+<p align="center" id="ocpd">Office of Career &amp; Professional Development â€¢ American University Washington College of Law<br>
+4801 Massachusetts Avenue, NW, Suite 122 Washington, DC 20016 â€¢ 202-274-4090 F: 202-274-4096</p>
+General questions? CareerLink technical support? Please email <a href="mailto:careerdevelopment@wcl.american.edu%20">careerdevelopment@wcl.american.edu </a></div>
+</div>

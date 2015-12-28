@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+/********** SLIDER **********/
+.slider {
+  max-width: 734px;
+  position: relative;
+  margin: 1px auto 0 !important; 
+  padding: 16px 0 8px !important;
+  }
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+	border-style:solid;
+	border-width:1;
+	}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide:first-child {
+    display: block;}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+  background-color:black;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 324%;
+  line-height: 0.5em;}
+
+.slide-btn.activeS, .slide-btn:hover {
+  color: #5F2434;
+  cursor: pointer;}
+
+#content p#ocpd { text-align: center;}
+
+ .lifestreamDiv {
+      color: #d4d4d4;
+      font-size: 0.95em;
+    }
+   
+ .lifestreamDiv a:hover {
+      color: #fff5d8;
+      text-decoration: underline;
+    }
+ .lifestreamDiv ul {
+      margin: 0;
+      padding: 0;
+    }
+ .lifestreamDiv li {
+      line-height: 1.2em;
+      padding: 5px 3px 5px 25px;
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+
+ .lifestreamDiv li:hover {
+      color: #e9e9e9;
+    }
