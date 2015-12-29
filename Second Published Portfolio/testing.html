@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/transitions.css" rel="stylesheet" media="screen, projection">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script type="text/javascript" src="_scripts/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="_scripts/utils.js"></script>
+<script type="text/javascript" src="_scripts/gallery.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript">
+	var inc=1;
+	$(function () {
+			$('#next').click(
+				function () {
+					var currentFig = "#fig" + inc;
+					if (inc == 9) {
+						nextFig = "#fig1";
+					} else {
+						nextFig = "#fig" + (inc + 1);
+					}
+					$(nextFig).addClass('showFig');
+					$(currentFig).removeClass('showFig');	
+					inc++;
+					if (inc == 10) { inc = 1; } 
+				}
+			);	
+			$('#previous').click(
+				function () {
+					var currentFig = "#fig" + inc;
+					if (inc == 1) {
+						prevFig = "#fig9";
+					} else {
+						prevFig = "#fig" + (inc - 1);
+					}
+					$(prevFig).addClass('showFig');
+					$(currentFig).removeClass('showFig');	
+					inc--;
+					if (inc == 0) { inc = 9; } 
+			}
+			);	
+	});
+	</script>
+<link href="ll.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<section class="container">
+      <div id="carousel" style="transform: translateZ(-516px) rotateY(0deg);">
+        
+        
+        <figure id="fig1" class="showFig" style="opacity: 1; transform: rotateY(0deg) translateZ(516px);"><a href="Channel1914/Fellowship/chnnl1914.html" title="Rails Gallery"><img class="wheel" src="http://www.sixarm.com/projects/ruby.png" width="274" height="174"></a></figure>
+        <figure id="fig2" style="opacity: 1; transform: rotateY(60deg) translateZ(516px);"><a href="Channel1914/35thCelebration/chnnl1914.html"><img class="wheel" src="http://2.bp.blogspot.com/-b3ZIlpZ-gZg/VExleliTX2I/AAAAAAAAEOs/PYnuaBJhAJE/s1600/javascript.png" width="274" height="174"></a></figure>
+        <figure id="fig3" style="opacity: 1; transform: rotateY(120deg) translateZ(516px);"><a href="Channel1914/stepShows/chnnl1914.html"><img class="wheel" src="http://www.wmyl.se/wp-content/uploads/2012/09/angular_logo.png" width="274" height="174"></a></figure>
+        <figure id="fig4" class="" style="opacity: 1; transform: rotateY(180deg) translateZ(516px);"><a href="Channel1914/dancingwithlion/chnnl1914.html"><img class="wheel" src="http://devjs.eu/wp-content/uploads/2013/09/css3-markup.jpg" width="274" height="174"></a></figure>
+        <figure id="fig5" class="" style="opacity: 1; transform: rotateY(240deg) translateZ(516px);"><a href="Channel1914/Service/chnnl1914.html"><img class="wheel" src="http://revel.in/wp-content/uploads/2015/04/UX.jpeg" width="274" height="174"></a></figure>
+        <figure id="fig6" class="" style="opacity: 1; transform: rotateY(320deg) translateZ(516px);"><a href="Channel1914/eventPhotos/chnnl1914.html"><img class="wheel" src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-circle-128.png" width="274" height="174"></a></figure>
+       <figure id="fig7" class="" style="opacity: 1; transform: rotateY(196.363636363636deg) translateZ(516px);"><a href="http://www.artguth.com/pagina/menus/105/jquery-logo.png"><img class="wheel" src="http://www.artguth.com/pagina/menus/105/jquery-logo.png" width="274" height="174"></a></figure>
+        <figure id="fig8" class="" style="opacity: 1; transform: rotateY(229.090909090909deg) translateZ(516px);"><a href="Channel1914/chapterBonds/chnnl1914.html"><img class="wheel" src="https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png" width="274" height="174"></a></figure>
+        <figure id="fig9" class="" style="opacity: 1; transform: rotateY(261.818181818182deg) translateZ(516px);"><a href="Channel1914/oldSchool/chnnl1914.html"><img class="wheel" src="http://codesters.org/media/topics/sql.png" width="274" height="174"></a></figure>
+                
+      </div>
+    </section>
+    <section id="options">
+       <p id="toggle" style="
+    position: relative;
+    right: -105px;
+    bottom: 2px;
+"><button id="toggle-axis">Toggle Axis</button></p>
+        <p id="navigation">
+        <input type="hidden" id="panel-count" value="9">
+        <button style="
+       position: relative;
+       right: 915px;
+       bottom: 240px;
+       border-radius: 58px;
+       height: 105px;
+       width: 105px;
+       opacity:.5;
+    "id="previous" data-increment="-1"><!--<i id="previous" style="
+    border-radius: 58px;
+    height: 100px;
+    width: 100px;
+" class="fa fa-arrow-circle-left"></i>-->
+<img id="previous" style="
+    border-radius: 58px;
+    height: 100px;
+    width: 100px;
+"
+src="leftArrow.png" data-increment="-1"></button>
+        <button style="
+    position: relative;
+    left: -158px;
+    bottom: 230px;
+    border-radius: 58px;
+    height: 105px;
+    width: 105px;
+    opacity:.5;
+" id="next" data-increment="+1">
+<img id="next" style="
+    border-radius: 58px;
+    height: 100px;
+    width: 100px;
+" src="rightArrow.png" data-increment="+1"></button>
+        </p>
+    </section>
+</body>
+</html>

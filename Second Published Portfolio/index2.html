@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KB3IT Solutions</title>
+
+    <!-- Bootstrap Core CSS 
+    <script src="jquery-1.11.0.min"></script>-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+ .g {
+      width: 210px;
+      height: 140px;
+      position: relative;
+      margin: 0 auto 40px;
+      border: 1px solid #CCC;
+      -webkit-perspective: 1100px;
+         -moz-perspective: 1100px;
+           -o-perspective: 1100px;
+              perspective: 1100px;
+    }
+
+    #carousel {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transform: translateZ( -288px );
+         -moz-transform: translateZ( -288px );
+           -o-transform: translateZ( -288px );
+              transform: translateZ( -288px );
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+      -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+    }
+
+    #carousel figure {
+      display: block;
+      position: absolute;
+      width: 186px;
+      height: 116px;
+      left: 10px;
+      top: 10px;
+      border: 2px solid black;
+      line-height: 116px;
+      font-size: 80px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+    }
+
+    #carousel figure:nth-child(1) { background: hsla(   0, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(2) { background: hsla(  40, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(3) { background: hsla(  80, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(4) { background: hsla( 120, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(5) { background: hsla( 160, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(6) { background: hsla( 200, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(7) { background: hsla( 240, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(8) { background: hsla( 280, 100%, 50%, 0.8 ); }
+    #carousel figure:nth-child(9) { background: hsla( 320, 100%, 50%, 0.8 ); }
+
+    #carousel figure:nth-child(1) {
+      -webkit-transform: rotateY(   0deg ) translateZ( 288px );
+         -moz-transform: rotateY(   0deg ) translateZ( 288px );
+           -o-transform: rotateY(   0deg ) translateZ( 288px );
+              transform: rotateY(   0deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(2) {
+      -webkit-transform: rotateY(  40deg ) translateZ( 288px );
+         -moz-transform: rotateY(  40deg ) translateZ( 288px );
+           -o-transform: rotateY(  40deg ) translateZ( 288px );
+              transform: rotateY(  40deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(3) {
+      -webkit-transform: rotateY(  80deg ) translateZ( 288px );
+         -moz-transform: rotateY(  80deg ) translateZ( 288px );
+           -o-transform: rotateY(  80deg ) translateZ( 288px );
+              transform: rotateY(  80deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(4) {
+      -webkit-transform: rotateY( 120deg ) translateZ( 288px );
+         -moz-transform: rotateY( 120deg ) translateZ( 288px );
+           -o-transform: rotateY( 120deg ) translateZ( 288px );
+              transform: rotateY( 120deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(5) {
+      -webkit-transform: rotateY( 160deg ) translateZ( 288px );
+         -moz-transform: rotateY( 160deg ) translateZ( 288px );
+           -o-transform: rotateY( 160deg ) translateZ( 288px );
+              transform: rotateY( 160deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(6) {
+      -webkit-transform: rotateY( 200deg ) translateZ( 288px );
+         -moz-transform: rotateY( 200deg ) translateZ( 288px );
+           -o-transform: rotateY( 200deg ) translateZ( 288px );
+              transform: rotateY( 200deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(7) {
+      -webkit-transform: rotateY( 240deg ) translateZ( 288px );
+         -moz-transform: rotateY( 240deg ) translateZ( 288px );
+           -o-transform: rotateY( 240deg ) translateZ( 288px );
+              transform: rotateY( 240deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(8) {
+      -webkit-transform: rotateY( 280deg ) translateZ( 288px );
+         -moz-transform: rotateY( 280deg ) translateZ( 288px );
+           -o-transform: rotateY( 280deg ) translateZ( 288px );
+              transform: rotateY( 280deg ) translateZ( 288px );
+    }
+    #carousel figure:nth-child(9) {
+      -webkit-transform: rotateY( 320deg ) translateZ( 288px );
+         -moz-transform: rotateY( 320deg ) translateZ( 288px );
+           -o-transform: rotateY( 320deg ) translateZ( 288px );
+              transform: rotateY( 320deg ) translateZ( 288px );
+    }
+
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">KB3IT</span> Solutions
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                         <ul>
+                         <li id="wcl"><a style="color:#660E19;" href="#wclCon">AUWCL </a></li>
+                         <li id="ll"><a style="color:crimson;" href="#llCon">&Lambda; &Lambda;</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#resumeHold">Resume</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+<header class="intro workaround" style="
+   
+">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div id="introInfo" class="col-md-8 col-md-offset-2">
+                       <h1 class="brand-heading">
+                       <span>KB<span id="brand-heading">3</span>IT</span></h1>
+                      <p class="intro-text">Combining Information Technology<br>
+                        and creative thinking to solve your problems<br> of today and tomorrow.</p>
+                      
+                        <br><a href="#projects" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<!-- Projects Section 
+   <section id="projects" class="container-fluid" style="
+    background-image: url(http://i.imgur.com/CFPmrua.gif);
+    background-size: 100% 100%;
+    height:650px;
+">
+
+<h2 class="portfolio" style="padding-top:10px;">Projects </h2>
+<div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+   
+   
+       <section class="g">
+    <div id="carousel">
+      <figure>1</figure>
+      <figure>2</figure>
+      <figure>3</figure>
+      <figure>4</figure>
+      <figure>5</figure>
+      <figure>6</figure>
+      <figure>7</figure>
+      <figure>8</figure>
+      <figure>9</figure>
+    </div>
+  </section>
+      
+    <section id="options">
+       <p id="toggle" style="
+    position: relative;
+    right: -105px;
+    bottom: 2px;
+"><button id="toggle-axis">Toggle Axis</button></p>
+        <p id="navigation">
+        <input type="hidden" id="panel-count" value="9">
+        <button id="previous" data-increment="-1"><!--<i id="previous" style="
+    border-radius: 58px;
+    height: 100px;
+    width: 100px;
+" class="fa fa-arrow-circle-left"></i>
+<img id="previous" src="leftArrow.png" data-increment="-1"></button>
+        <button id="next" data-increment="+1">
+<img id="next" src="rightArrow.png" data-increment="+1"></button>
+        </p>
+        <div class="row">
+        	<div class="col-xs-2 col-xs-offset-5" style="position:relative;bottom:2em;">
+             <a href="#about" class="btn btn-circle page-scroll text-center"><i class="fa fa-angle-double-down animated"></i></a>
+            </div>
+        </div>
+    </section>
+ </section>
+ </div>
+      </div>
+    <!-- About Section -->
+    <section id="about" class="container text-center workaround" style="background-size: 100% 100%;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;width: 100%; //height:650px;background: #83a4d4; /* fallback for old browsers */ background: -webkit-linear-gradient(to left, #83a4d4 , #b6fbff); /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to left, #fff, #83a4d4 , #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="
+    //height: 650px;
+">
+                <h2>About</h2>
+               <div class="col-lg-2 col-lg-offset-4">   
+                  <img class="aboutImg" src="me.jpg">
+                
+               </div>   
+               <div class="well col-xs-10 col-xs-offset-1">
+               <p id="gen">"Once you stop learning, you start dying." Though Albert Einstein was born over a century ago in Germany, his mantra has been paramount to my growth and success as a professional. As a first generation college graduate and native of the District of Columbia, the city with the nations largest achievement gap between poor children and their wealthy counterparts, it is only through mastering the alchemy of education that I was able to become more than just a product of my environment. It also allowed me to attend one of the best schools in the world, Pennsylvania State University.</p>
+               <button class="btn btn-primary" id="b">Previous</button><button class="btn btn-primary" id="a">Next</button>
+               </div>         
+            </div>
+            <div class="row">
+        	<div class="col-xs-2 col-xs-offset-5">
+             <a href="#contact" class="btn btn-circle page-scroll text-center"><i class="fa fa-angle-double-down animated"></i></a>
+            </div>
+        </div>
+        </div>
+</section>
+
+    <!-- Resume Section -->
+    <!--<section id="resumeHold" class="content-section text-center">
+
+    <!-- Contact Section -->
+    <section id="contact" class="container text-center workaround" style="background-image:url(img/capitolHead.jpg);background-size: 100% 100%;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;width: 100%;height:650px;">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <div id="contactContent">
+                	<div class="well">
+                    <p>Like my work?</p> 
+                    
+                    <p>Feel free to contact me at <a href="mailto:kndllbrwn1914@gmail.com">kndllbrwn1914@gmail.com</a>
+                    my specialty is front-end development, but I have a range of expereince and passions. I'm willing to consider many different projects!</p>
+                	</div>
+                 <div id="contactButtons" class="btn-group btn-group-vertical">
+  <div class="btn-group"><button class="btn btn-primary"><i class="fa fa-github"></i> Github</button>
+    </div>
+  <div class="btn-group">
+ <button class="btn btn-primary"><i class="fa fa-linkedin"></i> LinkedIn</button>
+    </div>
+  <div class="btn-group"><button class="btn btn-primary"><i class="fa fa-mortar-board"></i> Free Code Camp</button>
+    </div>
+  <div class="btn-group"><button class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</button></div></div>
+                
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Map Section 
+    <div id="map"></div>
+-->
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container text-center">
+            <p>Copyright &copy; KB3IT Solutions 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
+
+	<!-- Carousel Scripts-->
+    <script type="text/javascript" src="_scripts/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="_scripts/utils.js"></script>
+<script type="text/javascript" src="_scripts/gallery.js"></script>
+
+<script>
+$(document).ready(function() {  
+var qoutes=['"Once you stop learning, you start dying." Though Albert Einstein was born over a century ago in Germany, his mantra has been paramount to my growth and success as a professional. As a first generation college graduate and native of the District of Columbia, the city with the nations largest achievement gap between poor children and their wealthy counterparts, it is only through mastering the alchemy of education that I was able to become more than just a product of my environment. It also allowed me to attend one of the best schools in the world, Pennsylvania State University.', "As with any trailblazing journey there were highs and lows but on that road I acquired degrees in Sociology, Psychology, and Information Sciences as well as a wealth of experience in student support/leadership roles. My graduating thesis was how to best even the odds and achieve social justice for young boys and girls born in circumstances similar to myself. The most simple answer was: investment in human and social capital.", "Through my continued growth in courses like Copyrightx from Harvard University and knowledge gained through certification, I remain steadfast in my belief that technology is the key. There are few tools that have more helped democratize information available to the general public and common man. In my estimation, it is the best way of catalyzing the human and social capital growth that a physical environment may not nurture. Which is why it continues to be a cornerstone in growth of my personal and professional life.", "To describe myself in one sentence, I am- An Information technology enthusiast, with a genuine passion to invest in human and social capital for the promotion of social justice."];
+  var c =0;
+  function nextAbout(){
+   c = c + 1;
+		if (c === 4){c = 0;}
+	return qoutes[c];
+  }
+   function prevAbout(){
+   c = c - 1;
+		if (c === -1){c = 3;}
+	return qoutes[c];
+  }
+$("#a").click(function(){
+  a = nextAbout(); 
+  $("#gen").text(a);  
+  });
+  $("#b").click(function(){
+  a = prevAbout(); 
+  $("#gen").text(a);  
+  });  
+  
+var buttonsJustify = function(){ 
+if (window.innerWidth >= 767){$("#contactButtons").removeClass("btn-group-vertical").addClass("btn-group-justified");};
+};
+buttonsJustify();
+
+var buttonsVertify = function(){ 
+if (window.innerWidth < 768){$("#contactButtons").removeClass("btn-group-justified").addClass("btn-group-vertical");};
+};
+buttonsVertify();
+
+
+ $("#wcl1h").click(function(){
+        $("#wcl1b").slideToggle("slow");
+	});	
+ $("#wcl2h").click(function(){
+        $("#wcl2b").slideToggle("slow");
+	});   
+ $("#wcl3h").click(function(){
+        $("#wcl3b").slideToggle("slow");
+	});   
+ $("#wcl4h").click(function(){
+        $("#wcl4b").slideToggle("slow");
+	}); 
+ $("#wcl5h").click(function(){
+        $("#wcl5b").slideToggle("slow");
+	}); 
+ $("#wcl6h").click(function(){
+        $("#wcl6b").slideToggle("slow");
+	});
+$("#wcl7h").click(function(){
+        $("#wcl7b").slideToggle("slow");
+	});
+$("#wcl8h").click(function(){
+        $("#wcl8b").slideToggle("slow");
+	});
+$("#wcl9h").click(function(){
+        $("#wcl9b").slideToggle("slow");
+	});
+$("#ll1h").click(function(){
+        $("#ll1b").slideToggle("slow");
+	});		
+$("#ll3h").click(function(){
+        $("#ll3b").slideToggle("slow");
+	});		 		  	 
+});
+
+</script>
+<script>
+    var init = function() {
+      var carousel = document.getElementById('carousel'),
+          navButtons = document.querySelectorAll('#navigation button'),
+          panelCount = carousel.children.length,
+          transformProp = Modernizr.prefixed('transform'),
+          theta = 0,
+
+          onNavButtonClick = function( event ){
+            var increment = parseInt( event.target.getAttribute('data-increment') );
+            theta += ( 360 / panelCount ) * increment * -1;
+            carousel.style[ transformProp ] = 'translateZ( -288px ) rotateY(' + theta + 'deg)';
+          };
+
+      for (var i=0; i < 2; i++) {
+        navButtons[i].addEventListener( 'click', onNavButtonClick, false);
+      }
+
+    };
+
+    window.addEventListener( 'DOMContentLoaded', init, false);
+  </script>
+</body>
+
+</html>

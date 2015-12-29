@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+#content {
+  margin: 0 auto;	
+}
+/*DROPDOWN FUNCTIONALITY*/
+.nav {
+	position:relative;
+	right:-450px;
+}
+/*.rightsidediv350{
+	background-color: black;
+	color: white;
+	width: 365px;
+	height:351px;
+	margin-top:10px;
+}*/
+.rightborderhead{
+	background-color:blue;
+	color: white;
+	margin: 0;
+}
+.nav ul { 
+	padding:0; 
+	margin:0
+	z-index:3;
+}
+.nav a {
+	display:block;
+	text-decoration: none;
+}
+.nav li {
+	display:block; 
+	float:left;
+	z-index:3
+}
+.nav li ul li {
+	float:none;
+	z-index:3
+}
+.nav li ul {
+	display:none; 
+	position:absolute; 
+	z-index:3
+}
+.nav li:hover ul {
+	display:block;
+}
+
+/*DROPDOWN STYLING:*/
+#menu {
+	height:30px
+}
+#menu a {
+	color:#024E67; 
+	padding:10px 15px 10px 15px;
+}
+#menu a:hover {
+	color: red;
+}
+#menu li {
+	background-color:#FFF; 
+	border:	margin-left:-1px;
+}
+#menu li:hover {
+	/*background-color:#61b4cf*/
+}
+  
+  div.about {
+  background:#9999CC;
+  padding: 3px 3px 03px 03px;
+  }
+  
+#slideshow{
+border: 1px solid;
+    	width: 733px;
+		margin-left: 128px;
+		padding: 0px;
+		//overflow: auto;
+		//border-radius: 9px;
+/*slideshow start*/		
+}
+/*#slideshow {
+
+margin: 50px auto;position: relative; width: 240px; height: 240px; padding: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.4); } #slideshow > div { position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; }
+
+#slideshow img{width: 240px; height: 240px;}
+}*/
+
+
+#hero {
+    height:505px;
+    width:900px;
+	//margin-left: 245;
+}
+#hero div {
+	border: 1px solid;
+    	width: 900px;
+		height: 505px;
+		//margin-left: 70px;
+		padding: 0px;
+		//overflow: auto;
+		//border-radius: 9px;
+    position:absolute;
+    z-index: 0;
+}
+#hero div.previous {
+    z-index: 1;
+}
+#hero div.current {
+    z-index: 2;
+}
+#affil {
+     position: relative;
+    top: -200px;
+}
+.otherInfo{
+  height: 100px;
+  overflow-y: scroll;	
+}
+
+/********** TABS **********/
+.tabs {
+  max-width: 480px;
+  float:right;}
+  
+
+.tab-list {
+  margin: 0;
+  padding: 0;}
+
+.tab-list li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #303030;
+  border-bottom: 3px solid #858585;
+  font-family: 'Jacques Francois', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;}
+
+.tab-list li a {
+  color: #f2f2f2;
+  display: block;
+  padding: 3px 10px 3px 10px;}
+
+
+/********** HOVER STATES **********/
+.tab-list li.active, .tab-list li.hover {
+  background-color: #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;}
+
+.tab-list li.active a, .tab-list li a:hover {
+  color: #666;
+  background-color: #e5e5e5;}
+
+
+/********** PANELS **********/
+.tab-panel {
+  display: none;
+  
+  background-color: #e5e5e5;
+  color: #666;
+  min-height: 150px;
+  overflow: auto;}
+
+.tab-panel.active {
+  display: block;}
+
+.tab-panel p {
+  margin: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-style: inset;
+  padding-top:5px;
+  }
+  #watermark{
+	  width: 150px;
+	  height: 150px;
+	  z-index:10;
+	  position:absolute;
+	  top:500px;
+  }
+  /********** SLIDER **********/
+.slider {
+  max-width: 734px;
+  position: relative;
+  margin: 1px auto 0 !important; 
+  padding: 16px 0 8px !important;
+  }
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+	border-style:solid;
+	border-width:1;
+	}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide:first-child {
+    display: block;}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+  background-color:black;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 324%;
+  line-height: 0.5em;}
+
+.slide-btn.activeS, .slide-btn:hover {
+  color: #5F2434;
+  cursor: pointer;}

@@ -1,0 +1,23 @@
+#sidebar{display:none;}
+#content{margin-left:0;border:none;height:auto;}
+body > #content{overflow:visible;}
+#nav1-ul,#nav2-ul,#nav3-ul,#nav4-ul,#nav5-ul,#nav6-ul,#nav7-ul,#nav8-ul,#nav9-ul,#nav10-ul,#nav11-ul,#nav12-ul,#nav13-ul,#nav14-ul,#nav15-ul,#nav16-ul,#nav17-ul,#nav18-ul,#nav19-ul,#nav20-ul{display:block !important;}
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6,#nav7,#nav8,#nav9,#nav10,#nav11,#nav12,#nav13,#nav14,#nav15,#nav,#nav17,#nav18,#nav19,#nav20{display:none !important;}
+.ourfaculty{display:none;}
+.noprint{display:none;}
+.newatwclbox{height:auto;}
+#frontpage{overflow:visible;float:left;}
+* > #frontpage{float:none;}
+
+#utilbar {display: none;}
+#topnav {display: none;}
+
+#fullbody { width: auto; font-size: 90%;}
+#outerbody { background: #fff; border: 0; -moz-box-shadow: none; -webkit-box-shadow: none; -moz-border-radius-topleft: 0;-moz-border-radius-topright: 0;-webkit-border-top-right-radius:0;-webkit-border-top-left-radius:0;}
+#content, #innerbody { border:0;background:#fff; width:auto; margin: 0;}
+#innerbody { -moz-box-shadow:none;-webkit-box-shadow:none;}
+
+#footer {text-shadow: none;border-top:1px solid #000;font-size: 60% !important;}
+#copyright {width:300px; padding-top:4px;}
+#wcladdress { padding-top:4px;}
+#qrcode{display: block;float:right; margin-top:-25px; margin-right: -10px;}
