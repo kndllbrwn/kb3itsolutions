@@ -19,7 +19,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
-    <link href="css/kb3.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
     
 
     <!-- Custom Fonts -->
@@ -102,52 +102,85 @@
         </div>
     </header>
 	<!-- Projects Section -->
-   <section id="projects" class="container-fluid">
+   <section id="projects" class="container-fluid" style="
+    background-image: url(http://i.imgur.com/CFPmrua.gif);
+    background-size: 100% 100%;
+    height:650px;
+">
 
 <h2 class="portfolio" style="padding-top:10px;">Projects </h2>
 <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-   
-   
-       <section class="threeD container">
-          <div id="carousel" style="transform: translateZ(-516px) rotateY(0deg);">
-            
-            
-            <figure id="fig1" class="showFig" style="opacity: 1; transform: rotateY(0deg) translateZ(516px);"><img class="wheel" data-toggle="modal" data-target="#m1" src="http://www.sixarm.com/projects/ruby.png" ></figure>           
-            <figure id="fig2" style="opacity: 1; transform: rotateY(60deg) translateZ(516px);"><img class="wheel" data-toggle="modal" data-target="#m2" src="http://2.bp.blogspot.com/-b3ZIlpZ-gZg/VExleliTX2I/AAAAAAAAEOs/PYnuaBJhAJE/s1600/javascript.png" ></figure>
-            <figure id="fig3" style="opacity: 1; transform: rotateY(120deg) translateZ(516px);"><img class="wheel" src="http://www.wmyl.se/wp-content/uploads/2012/09/angular_logo.png" data-toggle="modal" data-target="#m3"></figure>
-            <figure id="fig4" class="" style="opacity: 1; transform: rotateY(180deg) translateZ(516px);"><img class="wheel" src="http://devjs.eu/wp-content/uploads/2013/09/css3-markup.jpg" data-toggle="modal" data-target="#m4"></figure>
-            <figure id="fig5" class="" style="opacity: 1; transform: rotateY(240deg) translateZ(516px);"><img class="wheel" src="http://revel.in/wp-content/uploads/2015/04/UX.jpeg" data-toggle="modal" data-target="#m5"></figure>
-            <figure id="fig6" class="" style="opacity: 1; transform: rotateY(320deg) translateZ(516px);"><img class="wheel" src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-circle-128.png" data-toggle="modal" data-target="#m6"></figure>
-           <figure id="fig7" class="" style="opacity: 1; transform: rotateY(196.363636363636deg) translateZ(516px);"><img class="wheel" src="http://www.artguth.com/pagina/menus/105/jquery-logo.png" data-toggle="modal" data-target="#m7"></figure>
-            <figure id="fig8" class="" style="opacity: 1; transform: rotateY(229.090909090909deg) translateZ(516px);"><img class="wheel" src="https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png" data-toggle="modal" data-target="#m8"></figure>
-            <figure id="fig9" class="" style="opacity: 1; transform: rotateY(261.818181818182deg) translateZ(516px);"><img class="wheel" src="http://codesters.org/media/topics/sql.png"  data-toggle="modal" data-target="#m9"></figure>
-                    
-          </div>
-        </section>      
-    <section id="options">
-       <span id="toggle" style="position: relative;left: -180px;top:10em;">
-       		<button class="btn btn-primary btn-lg" id="toggle-axis" style="border-radius: 50%;">
-        		<i class="fa fa-refresh"></i>
-        	</button>
-        </span>
-        <p id="navigation">
-            <input type="hidden" id="panel-count" value="9">
-            <button class="btn btn-primary" id="previous" data-increment="+1">
-                <img id="previous" src="leftArrow.png" data-increment="+1">
-            </button>
-            <button class="btn btn-primary" id="next" data-increment="-1">
-                <img id="next" src="rightArrow.png" data-increment="-1">
-             </button>
-        </p>
-    </section>
-     <div class="row">
-        	<div class="col-xs-2 col-sm-offset-5" style="position:relative;bottom:2em;left:2em;">
+   <div class="container shorten">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="http://www.sixarm.com/projects/ruby.png" data-toggle="modal" data-target="#m1" alt="Ruby" class="wheel">
+      </div>
+
+      <div class="item">
+        <img src="http://2.bp.blogspot.com/-b3ZIlpZ-gZg/VExleliTX2I/AAAAAAAAEOs/PYnuaBJhAJE/s1600/javascript.png" alt="JavaScript" class="wheel" data-toggle="modal" data-target="#m2">
+      </div>
+    
+      <div class="item">
+        <img src="http://www.wmyl.se/wp-content/uploads/2012/09/angular_logo.png" alt="AngularJS" class="wheel" data-toggle="modal" data-target="#m3">
+      </div>
+      <div class="item">
+        <img src="http://devjs.eu/wp-content/uploads/2013/09/css3-markup.jpg" alt="CSS3" class="wheel" data-toggle="modal" data-target="#m4">
+        </div>
+        <div class="item">
+        <img src="http://revel.in/wp-content/uploads/2015/04/UX.jpeg" alt="UX" class="wheel" data-toggle="modal" data-target="#m5">
+      </div>
+        <div class="item">
+        <img src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-circle-128.png" alt="GitHub" class="wheel" data-toggle="modal" data-target="#m6">
+      </div>
+        <div class="item">
+        <img src="http://www.artguth.com/pagina/menus/105/jquery-logo.png" alt="jQuery" class="wheel" data-toggle="modal" data-target="#m7">
+      </div>
+        <div class="item">
+        <img src="https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png" alt="nodeJS" class="wheel" data-toggle="modal" data-target="#m8">
+      </div>
+        <div class="item">
+        <img src="http://codesters.org/media/topics/sql.png" alt="SQL" class="wheel" data-toggle="modal" data-target="#m9">
+      </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>      
+    </div>
+      </div>
+      <div class="row">
+        	<div class="col-xs-2 col-xs-offset-4">
              <a href="#about" class="btn btn-circle page-scroll text-center"><i class="fa fa-angle-double-down animated"></i></a>
          	</div>
      </div>
-    </div>
-      </div>
  </section>
  <!-- Master Modal Section-->
  <div id="modalMaster">
@@ -716,7 +749,7 @@ Instead of having multiple tables for each grouping, I made each subsection of r
  </div>
  <!-- End of Master Modal-->
     <!-- About Section -->
-    <section id="about" class="container text-center">
+    <section id="about" class="container text-center workaround" style="background-size: cover;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;background: #83a4d4; /* fallback for old browsers */ background: -webkit-linear-gradient(to left, #83a4d4 , #b6fbff); /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to left, #fff, #83a4d4 , #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
         
                 <h2>About</h2>
                <div class="col-lg-2 col-lg-offset-5">   
@@ -729,7 +762,7 @@ Instead of having multiple tables for each grouping, I made each subsection of r
                    <button class="btn btn-primary" id="a">Next</button>
                </div>         
             </div>
-        	<div class="col-xs-2 col-xs-offset-5" id="aboutDown">
+        	<div class="col-xs-2 col-xs-offset-5">
              <a href="#contact" class="btn btn-circle page-scroll text-center"><i class="fa fa-angle-double-down animated"></i></a>
             </div>
         
@@ -739,7 +772,7 @@ Instead of having multiple tables for each grouping, I made each subsection of r
     <!--<section id="resumeHold" class="content-section text-center">
 
     <!-- Contact Section -->
-    <section id="contact" class="container text-center" style="background-image:url(img/capitolHead.jpg);background-size: 100% 100%;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;width: 100%;height:650px;">
+    <section id="contact" class="container text-center workaround" style="background-image:url(img/capitolHead.jpg);background-size: 100% 100%;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;width: 100%;height:650px;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
@@ -776,26 +809,96 @@ Instead of having multiple tables for each grouping, I made each subsection of r
         </div>
     </footer>
 
-    <!-- jQuery
+    <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
-  Bootstrap Core JavaScript
+    <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
-   Plugin JavaScript 
+    <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
 
-   Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
+    <!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
 
 	<!-- Carousel Scripts-->
     <script type="text/javascript" src="_scripts/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="_scripts/utils.js"></script>
 <script type="text/javascript" src="_scripts/gallery.js"></script>
 
-<script type="text/javascript" src="_scripts/kb3.js"></script>
+<script>
+$(document).ready(function() {  
+var qoutes=['"Once you stop learning, you start dying." Though Albert Einstein was born over a century ago in Germany, his mantra has been paramount to my growth and success as a professional. As a first generation college graduate and native of the District of Columbia, the city with the nations largest achievement gap between poor children and their wealthy counterparts, it is only through mastering the alchemy of education that I was able to become more than just a product of my environment. It also allowed me to attend one of the best schools in the world, Pennsylvania State University.', "As with any trailblazing journey there were highs and lows but on that road I acquired degrees in Sociology, Psychology, and Information Sciences as well as a wealth of experience in student support/leadership roles. My graduating thesis was how to best even the odds and achieve social justice for young boys and girls born in circumstances similar to myself. The most simple answer was: investment in human and social capital.", "Through my continued growth in courses like Copyrightx from Harvard University and knowledge gained through certification, I remain steadfast in my belief that technology is the key. There are few tools that have more helped democratize information available to the general public and common man. In my estimation, it is the best way of catalyzing the human and social capital growth that a physical environment may not nurture. Which is why it continues to be a cornerstone in growth of my personal and professional life.", "To describe myself in one sentence, I am- An Information technology enthusiast, with a genuine passion to invest in human and social capital for the promotion of social justice."];
+  var c =0;
+  function nextAbout(){
+   c = c + 1;
+		if (c === 4){c = 0;}
+	return qoutes[c];
+  }
+   function prevAbout(){
+   c = c - 1;
+		if (c === -1){c = 3;}
+	return qoutes[c];
+  }
+$("#a").click(function(){
+  a = nextAbout(); 
+  $("#gen").text(a);  
+  });
+  $("#b").click(function(){
+  a = prevAbout(); 
+  $("#gen").text(a);  
+  });  
+  
+var buttonsJustify = function(){ 
+if (window.innerWidth >= 767){$("#contactButtons").removeClass("btn-group-vertical").addClass("btn-group-justified");};
+};
+buttonsJustify();
 
+var buttonsVertify = function(){ 
+if (window.innerWidth < 768){$("#contactButtons").removeClass("btn-group-justified").addClass("btn-group-vertical");};
+};
+buttonsVertify();
+
+
+ $("#wcl1h").click(function(){
+        $("#wcl1b").slideToggle("slow");
+	});	
+ $("#wcl2h").click(function(){
+        $("#wcl2b").slideToggle("slow");
+	});   
+ $("#wcl3h").click(function(){
+        $("#wcl3b").slideToggle("slow");
+	});   
+ $("#wcl4h").click(function(){
+        $("#wcl4b").slideToggle("slow");
+	}); 
+ $("#wcl5h").click(function(){
+        $("#wcl5b").slideToggle("slow");
+	}); 
+ $("#wcl6h").click(function(){
+        $("#wcl6b").slideToggle("slow");
+	});
+$("#wcl7h").click(function(){
+        $("#wcl7b").slideToggle("slow");
+	});
+$("#wcl8h").click(function(){
+        $("#wcl8b").slideToggle("slow");
+	});
+$("#wcl9h").click(function(){
+        $("#wcl9b").slideToggle("slow");
+	});
+$("#ll1h").click(function(){
+        $("#ll1b").slideToggle("slow");
+	});		
+$("#ll3h").click(function(){
+        $("#ll3b").slideToggle("slow");
+	});		 		  	 
+});
+
+</script>
 </body>
 
 </html>
